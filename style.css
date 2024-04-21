@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d16363;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container a{
+    padding: 10px;
+}
+
+header {
+    background-color:rgb(222, 125, 55);
+    color:pink;
+    padding: 20px 0;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+header h1 {
+    float:inline-start;
+    font-family: cursive;
+    
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('https://kolkatadoodh.com/wp-content/uploads/2021/11/icecream.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-size: 18px;
+}
+
+/* Ice Cream Flavors Section */
+.ice-cream {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border: 7px solid rgb(152, 63, 63);
+    box-sizing: border-box;
+}
+
+.ice-cream img {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    transition: 2s ease-in-out;
+}
+.ice-cream img:hover{
+    box-shadow: 10px 5px 5px red;
+    rotate: z 7deg;
+}
+
+/* Contact Form */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+#flavors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp{
+    font-size: 22px;
+    color: rgb(223, 229, 221);
+}
